@@ -16,7 +16,7 @@ function overwriteBestCustomer(newBestCustomer) {
 const leastFavoriteCustomer = 'someone';
 
 function changeLeastFavoriteCustomer() {
-    leastFavoriteCustomer = 'someone else'; // This will throw an error
+    leastFavoriteCustomer = 'someone else'; // This will throw an error.
 }
 
 module.exports = {
